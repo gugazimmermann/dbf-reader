@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const dbf_file_1 = require("./models/dbf-file");
+const Buffer = require('buffer/').Buffer
 class DbfReader {
     static readFieldsInfo(dbaseFile) {
         try {
